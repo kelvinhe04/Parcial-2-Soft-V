@@ -1,0 +1,140 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+.contenedor {
+  padding: 0;
+  margin: 50px auto 0;
+  width: 100%;
+  max-width: 1135px;
+}
+.img {
+  width: 100%;
+}
+
+img {
+  object-fit: cover;
+  width: 70%;
+  height: 100%;
+}
+.navbar {
+  width: 100%;
+  max-width: 1100px;
+  padding: 0 15px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2e2e2e;
+  border-radius: 10px;
+}
+.navbar ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+}
+.navbar li {
+  padding: 15px 20px;
+}
+.navbar a {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px 15px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border-radius: 10px;
+  font-size: 0.8rem;
+}
+.navbar a:hover {
+  background-color: cornflowerblue;
+  border-radius: 10px;
+  color: #111;
+}
+a {
+  color: cornflowerblue;
+  transition: color 0.3s ease-in-out;
+}
+.fuente-link {
+  font-size: 0.8rem;
+}
+a:hover {
+  color: black;
+  transition: color 0.3s ease-in-out;
+}
+p {
+  line-height: 1.6;
+}
+.justificar {
+  text-align: justify;
+}
+
+h1 {
+  margin: 70px 0 50px;
+}
+strong {
+  color: rgb(68, 67, 67);
+}
+.parrafo {
+  margin: 50px 0 0;
+}
+li {
+  line-height: 2;
+}
+
+.img-macbook img {
+  width: 40%;
+}
+.macbook-titulo {
+  margin: 100px 0 30px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+th,
+td {
+  padding: 8px;
+}
+th {
+  font-weight: bold;
+}
+td {
+  color: gray;
+}
+h1 {
+  font-size: 3.5rem; /* Relative to the root font size */
+}
+h2 {
+  font-size: 3rem; /* Relative to the parent font size */
+}
+ol {
+  margin: 0 0 80px;
+}
+h3 {
+  font-size: 2rem; /* 150% of the parent font size */
+}
+.fuente {
+  font-size: 0.8rem;
+}
+.footer {
+  background-color: #2e2e2e;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  width: 100%;
+  margin: 80px 0 0;
+  border-radius: 10px 10px 0 0;
+}
+.videos-contenedor {
+  display: flex;
+  flex-direction: row;
+  gap: 59px; /* Espacio entre los videos */
+  flex-wrap: wrap;
+}
+.videos {
+  width: 538px;
+}
