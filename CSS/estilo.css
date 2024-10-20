@@ -7,7 +7,7 @@ body {
 .contenedor {
   padding: 0;
   margin: 50px auto 0;
-  width: 100%;
+  width: 90%;
   max-width: 1135px;
 }
 .img {
@@ -21,8 +21,7 @@ img {
 }
 .navbar {
   width: 100%;
-  max-width: 1100px;
-  padding: 0 15px;
+  max-width: 1135px;
   margin: 0;
   display: flex;
   justify-content: center;
@@ -106,16 +105,16 @@ td {
   color: gray;
 }
 h1 {
-  font-size: 3.5rem; /* Relative to the root font size */
+  font-size: 3.5rem;
 }
 h2 {
-  font-size: 3rem; /* Relative to the parent font size */
+  font-size: 3rem;
 }
 ol {
   margin: 0 0 80px;
 }
 h3 {
-  font-size: 2rem; /* 150% of the parent font size */
+  font-size: 2rem;
 }
 .fuente {
   font-size: 0.8rem;
@@ -132,9 +131,50 @@ h3 {
 .videos-contenedor {
   display: flex;
   flex-direction: row;
-  gap: 59px; /* Espacio entre los videos */
+  gap: 59px;
   flex-wrap: wrap;
 }
 .videos {
   width: 538px;
+}
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+  .navbar ul {
+    flex-direction: column;
+    width: 100%;
+
+    align-items: center;
+  }
+  .navbar li {
+    text-align: center;
+    width: 100%;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+  p,
+  li {
+    font-size: 0.9rem;
+  }
+
+  tr,
+  td,
+  tr {
+    font-size: 0.9rem;
+  }
+  .footer {
+    padding: 10px 0;
+  }
+  iframe {
+    width: 100%;
+  }
 }
